@@ -35,13 +35,21 @@ header, .experience {
 }
 .containertext
 {
-	width: 45%;
+
 	height: auto;
 	border: 1px solid #E13A63;
 	display: inline-block;
 
 }
 
+
+.containertext1
+{
+	height: auto;
+	border: 1px solid #E13A63;
+	display: inline-block;
+
+}
 
 
 .containerimg
