@@ -5,12 +5,14 @@ header, section {
 .left {
 	float: left;
 	width: 35%;
+	display: inline-block;
 
 }
 
 .right {
 	float: right;
 	width: 60%;
+	display:inline-block;
 }
 
 #headshot {
@@ -33,11 +35,15 @@ header, .experience {
 }
 .containertext
 {
-	width: 60%;
+	width: 45%;
 	height: auto;
 	border: 1px solid #E13A63;
 	display: inline-block;
+
 }
+
+
+
 .containerimg
 {
 	width: 400px;
