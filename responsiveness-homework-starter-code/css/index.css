@@ -40,9 +40,19 @@ header, .experience {
 }
 .containerimg
 {
-	width: auto;
+	width: 400px;
 	height: auto;
-	border: 1px solid #E13A63;
 	display: inline-block;
 
+}
+/* makes images full length of screen when media screen is less than 480px */
+@media screen and   (max-width:400px){
+ .containertext{
+ width: 100%;
+
+
+ }
+ .hidden{
+	 display: none;
+ }
 }
