@@ -12,6 +12,9 @@
 	text-align: center;
 	border: 2px solid #E13A63;
 	box-sizing: border-box;
+  height: auto;
+  width: 400px;
+  text-align-center;
 }
 
 .tile img	{

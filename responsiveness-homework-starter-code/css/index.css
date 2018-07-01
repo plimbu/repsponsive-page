@@ -5,12 +5,14 @@ header, section {
 .left {
 	float: left;
 	width: 35%;
+	display: inline-block;
 
 }
 
 .right {
 	float: right;
 	width: 60%;
+	display:inline-block;
 }
 
 #headshot {
@@ -33,16 +35,38 @@ header, .experience {
 }
 .containertext
 {
-	width: 60%;
-	height: auto;
-	border: 1px solid #E13A63;
-	display: inline-block;
-}
-.containerimg
-{
-	width: auto;
+
 	height: auto;
 	border: 1px solid #E13A63;
 	display: inline-block;
 
+}
+
+
+.containertext1
+{
+	height: auto;
+	border: 1px solid #E13A63;
+	display: inline-block;
+
+}
+
+
+.containerimg
+{
+	width: 400px;
+	height: auto;
+	display: inline-block;
+
+}
+/* makes images full length of screen when media screen is less than 480px */
+@media screen and   (max-width:400px){
+ .containertext{
+ width: 100%;
+
+
+ }
+ .hidden{
+	 display: none;
+ }
 }
